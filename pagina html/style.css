@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(230, 161, 161);
+    text-align: center;
+}
+
+img{
+    width: 250px;
+    left: 250px;
+}

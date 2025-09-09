@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+table {
+    width: 40%;
+}
+.feriado {
+    background-color: #ffcccc;
+    font-weight: bold;
+}

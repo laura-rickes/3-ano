@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 0 1em;
+}
+
+a {
+    color: rgb(26, 87, 220);
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1.5em;
+}
+
+del {
+    color: black;
+    
+}
+
+ins {
+    color: black;
+    text-decoration: none;
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+}
+
+pre {
+    color: #666;
+}
+
+code {
+    font-family: monospace;
+}
+
