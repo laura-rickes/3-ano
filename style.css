@@ -1,0 +1,101 @@
+/* ======= Geral ======= */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #ede7f6, #ce9fdc);
+  color: #333;
+}
+
+/* ======= Cabeçalho ======= */
+header {
+  background: #260147;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+header nav a {
+  color: #ce9fdc;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* ======= Container dos Cards ======= */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+/* ======= Cards ======= */
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+  background: linear-gradient(135deg, #260147, #260147);
+  color: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+
+.card-content {
+  padding: 30px;
+  text-align: center;
+}
+
+.card-content h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+.card-content p {
+  margin: 15px 0 25px;
+  font-size: 1rem;
+  color: #f3e5f5;
+}
+
+.card-content a {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #ce9fdc;
+  color: #4527a0;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+.card-content a:hover {
+  background: #ce9fdc;
+  color: #311b92;
+}
+
+/* ======= Rodapé ======= */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #eee;
+  margin-top: 40px;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+}
